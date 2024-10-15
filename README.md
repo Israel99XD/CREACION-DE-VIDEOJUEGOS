@@ -14,5 +14,10 @@
 ### PROTOTIPO 1
 ![image](https://github.com/user-attachments/assets/077981e0-0e20-413d-b122-f513d4af0e02)
 
-[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/tree/main/PROTOTIPO%201)
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_1.unitypackage)
+
+### PROTOTIPO 2
+![image](https://github.com/user-attachments/assets/0ca705ff-864e-4f6f-a4de-561e1aaef784)
+
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_2.unitypackage)
 </div>
