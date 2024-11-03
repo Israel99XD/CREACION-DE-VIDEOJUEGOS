@@ -51,7 +51,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Palo-Box
+  m_Name: IDLE
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -64,7 +64,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 926a7309eab4fbe45b3db9d394a5816b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 620c972a069f23844a3e5e3dd7faa17e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

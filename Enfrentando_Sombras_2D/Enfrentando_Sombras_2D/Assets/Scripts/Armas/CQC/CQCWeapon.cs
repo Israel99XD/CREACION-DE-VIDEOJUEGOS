@@ -39,7 +39,7 @@ public class CQCWeapon : Weapon
         
 
 
-        this.gfx.localRotation = Quaternion.Euler(0, 0, -80);
+        this.gfx.localRotation = Quaternion.Euler(0, 0, -35);
 
         yield return new WaitForSeconds(this.maxCooldownTime * 0.9f);
 

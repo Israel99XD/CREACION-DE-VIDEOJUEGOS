@@ -185,17 +185,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Alex\n "
+  m_text: PLAYER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c4a71e6953099f44e85f2befe7e14bca, type: 2}
+  m_sharedMaterial: {fileID: -3680987822744141087, guid: c4a71e6953099f44e85f2befe7e14bca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280023118
-  m_fontColor: {r: 0.30451638, g: 0.9716981, b: 0.10450332, a: 1}
+    rgba: 4281559467
+  m_fontColor: {r: 0.6698113, g: 0.4107362, b: 0.1990477, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -212,12 +212,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.65
-  m_fontSizeBase: 120
+  m_fontSize: 87.75
+  m_fontSizeBase: 180
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 1250
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 6.1397705, w: 15.349762}
+  m_margin: {x: 8.826111, y: 4.9003906, z: 7.315613, w: 6.627617}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5378,7 +5378,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ba264550a8f11c0478ab4f3c2ff29e83, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 9735d0cd754afe34d946cf8fdc5caf2d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 53856112c6ce2324887d6df0a39f1aaf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5392,7 +5392,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -6104,7 +6104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &496709821
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7723,7 +7723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &655539385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14590,11 +14590,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8898338124729853620, guid: 426eefc76e89dd54d8fb8233c8adbdb8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.00013828
+      value: 14.985
       objectReference: {fileID: 0}
     - target: {fileID: 8898338124729853620, guid: 426eefc76e89dd54d8fb8233c8adbdb8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -291
+      value: -276
       objectReference: {fileID: 0}
     - target: {fileID: 8898338124729853620, guid: 426eefc76e89dd54d8fb8233c8adbdb8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21367,7 +21367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223.1835, y: -77.844}
+  m_AnchoredPosition: {x: 18.99649, y: -41.078987}
   m_SizeDelta: {x: 247.107, y: 299.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702324050
@@ -21558,7 +21558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223.18, y: -39.765}
+  m_AnchoredPosition: {x: 19, y: -3}
   m_SizeDelta: {x: 247.11, y: 223.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712363861
@@ -21637,8 +21637,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1339883297, guid: d8f3004655c39de429808826e657dc30, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: -1745209190, guid: 2b40f0801183d264e98433c5a2dc505c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

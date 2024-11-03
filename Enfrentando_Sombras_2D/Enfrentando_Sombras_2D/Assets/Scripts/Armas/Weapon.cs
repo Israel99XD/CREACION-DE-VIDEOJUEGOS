@@ -43,7 +43,7 @@ public abstract class Weapon : MonoBehaviour
    }
     public virtual void Throw()
     {
-        Vector3 offset = new Vector3(0, 1, 0); // Ajusta el offset en Y aquí según tu necesidad
+        Vector3 offset = new Vector3(0, 2, 0); // Ajusta el offset en Y aquí según tu necesidad
         Vector3 spawnPosition = this.transform.position + offset; // Calcula la nueva posición
 
         Instantiate(this.weaponItemPrefab, spawnPosition,Quaternion.identity);
