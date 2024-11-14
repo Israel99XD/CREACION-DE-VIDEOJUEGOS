@@ -9,7 +9,7 @@ public class ConexionBD
 
     public IMongoCollection<BsonDocument> ConexionMongo()
     {
-        var client = new MongoClient("mongodb+srv://tonathiu123456:KE2jkZdUzPo9BOK9@invacioncanina.sksayaa.mongodb.net/?retryWrites=true&w=majority");
+        var client = new MongoClient("mongodb+srv://seriscompany:cPsPUFaEUiMoOOdb@cluster0.pnfekrf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
         var database = client.GetDatabase("dbJuego");
         var coleccion = database.GetCollection<BsonDocument>("Users");
 
@@ -18,7 +18,7 @@ public class ConexionBD
 
     public IMongoCollection<BsonDocument> ConexionMongo2()
     {
-        var client = new MongoClient("mongodb+srv://tonathiu123456:KE2jkZdUzPo9BOK9@invacioncanina.sksayaa.mongodb.net/?retryWrites=true&w=majority");
+        var client = new MongoClient("mongodb+srv://seriscompany:cPsPUFaEUiMoOOdb@cluster0.pnfekrf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
         var database = client.GetDatabase("dbJuego");
         var coleccion = database.GetCollection<BsonDocument>("Score");
 

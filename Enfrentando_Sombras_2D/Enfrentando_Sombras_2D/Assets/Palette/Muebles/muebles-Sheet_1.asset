@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: muebles-Sheet_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1003711194, guid: 44f2691a47ee91c4f9ce9640caa934fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 173cdc7334783754aa58fb0903e3f29d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

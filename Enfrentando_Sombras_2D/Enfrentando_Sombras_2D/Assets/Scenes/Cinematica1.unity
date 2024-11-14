@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 496.094, y: -39.77893}
-  m_SizeDelta: {x: 150.9522, y: 143.3094}
+  m_AnchoredPosition: {x: 308, y: 20}
+  m_SizeDelta: {x: 195.3785, y: 214.6608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &287870264
 MonoBehaviour:
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 277561732, guid: adee8eefb82ae7c4d8880c5e8a7242b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7596119d74f2ec542a1e043afb4673c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -425,10 +425,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 896331220}
   lines:
-  - 'En medio del caos, la UTNG es invadida por perros mutantes. '
-  - Alexander y Gerardo se aventuran en el primer edificio, enfrentando criaturas
-    inteligentes.
-  - Los estudiantes juran defender la universidad.
+  - ENCUENTRO EN EL BOSQUE DE OSCURIDAD
+  - "Guia: \"Este lugar est\xE1 lleno de sombras. Pero recuerda, el miedo solo tiene
+    poder si lo dejas. Enciende tu luz y sigue adelante.\""
+  - "Protagonista: \"\xBFY si no puedo enfrentarlo?\""
+  - 'Guia: "Cada paso que das es una victoria. No te detengas."'
   TextSpeed: 0.1
   DelayBeforeSceneLoad: 0.3
   nivel: 1
@@ -466,8 +467,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -61.906006, y: -39.77893}
-  m_SizeDelta: {x: 150.9522, y: 143.3094}
+  m_AnchoredPosition: {x: -156.3269, y: -13.2494}
+  m_SizeDelta: {x: 152.2984, y: 160.8107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &765419847
 MonoBehaviour:
@@ -489,7 +490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -409016860, guid: d2864c8ab49d4a34dbbb67f2c122f51b, type: 3}
+  m_Sprite: {fileID: -1991457930, guid: 4c864cc2519d4e040be0988f12a25832, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -579,7 +580,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -908,7 +909,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffab2a4c2cc274e418dc359de2a7ec36, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29493f4e2c466ad4784a6bf2b1c29ae3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1047,7 +1048,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ba264550a8f11c0478ab4f3c2ff29e83, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3de77d556bec6dc409662c58ca7e2eb7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 52b66ae42b78f7a4f8dce606a58779d0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1325,81 +1326,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716207134}
   m_CullTransparentMesh: 1
---- !u!1 &1933492847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1933492848}
-  - component: {fileID: 1933492850}
-  - component: {fileID: 1933492849}
-  m_Layer: 5
-  m_Name: Alex
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1933492848
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933492847}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2137622589}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -209.906, y: -39.77893}
-  m_SizeDelta: {x: 150.9522, y: 143.3094}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1933492849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933492847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1339883297, guid: d8f3004655c39de429808826e657dc30, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1933492850
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933492847}
-  m_CullTransparentMesh: 1
 --- !u!1 &1993860375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1426,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1276686763}
-  - {fileID: 1933492848}
   - {fileID: 765419846}
   - {fileID: 287870263}
   - {fileID: 1993860378}
