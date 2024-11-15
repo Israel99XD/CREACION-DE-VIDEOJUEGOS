@@ -150,7 +150,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ba264550a8f11c0478ab4f3c2ff29e83, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 05cb2c422b635664caf691b9a2d14a6b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 68a14667d1c7282499b2b4a855f297db, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 20
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -477,14 +477,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 568235904}
   lines:
-  - "Alexander y Gerardo, exhaustos pero triunfantes, contemplan la calma reci\xE9n
-    encontrada en la UTNG. "
-  - "Los escombros yacen testigos del desaf\xEDo superado, mientras la esperanza
-    renace en los corazones de los estudiantes. "
-  - 'Con el objeto completo, la amenaza mutante ha sido erradicada. '
-  - 'Juntos, levantan la mirada hacia un horizonte donde se vislumbra un futuro reconstruido. '
-  - "Con valent\xEDa, habilidad y determinaci\xF3n, los h\xE9roes de esta historia
-    han salvado la universidad y con ella, un destello de esperanza para la humanidad."
+  - HAZ LOGRADO VENCER A LA SOMBRA PRINCIOPAL
+  - '"El miedo es solo una sombra; no dejes que te consuma."'
+  - "Cada peque\xF1o paso cuenta. La valent\xEDa se mide en peque\xF1os actos.\""
+  - " \"La luz que buscas est\xE1 dentro de ti. Conf\xEDa en ella.\""
   TextSpeed: 0.1
   DelayBeforeSceneLoad: 2
   nivel: 0
@@ -515,7 +511,7 @@ RectTransform:
   m_GameObject: {fileID: 766236226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4240626, y: 1.9599999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2137622589}
@@ -545,8 +541,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1339883297, guid: d8f3004655c39de429808826e657dc30, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 7596119d74f2ec542a1e043afb4673c5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -665,7 +661,7 @@ RectTransform:
   m_GameObject: {fileID: 1267193469}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1108503, y: 1.1108503, z: 1.1108503}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2137622589}
@@ -695,7 +691,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -409016860, guid: d2864c8ab49d4a34dbbb67f2c122f51b, type: 3}
+  m_Sprite: {fileID: -1745209190, guid: 2b40f0801183d264e98433c5a2dc505c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

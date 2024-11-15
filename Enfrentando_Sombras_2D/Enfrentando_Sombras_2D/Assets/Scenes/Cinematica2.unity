@@ -366,8 +366,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246, y: -39.77893}
-  m_SizeDelta: {x: 150.9522, y: 143.3094}
+  m_AnchoredPosition: {x: 316, y: -11.716}
+  m_SizeDelta: {x: 206.567, y: 223.1045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &457729222
 MonoBehaviour:
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -932950298, guid: 99f45f0d482ee4e4ab677b666eb0d599, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7596119d74f2ec542a1e043afb4673c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -406,81 +406,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457729220}
-  m_CullTransparentMesh: 1
---- !u!1 &499875645
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 499875646}
-  - component: {fileID: 499875648}
-  - component: {fileID: 499875647}
-  m_Layer: 5
-  m_Name: Alex
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &499875646
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499875645}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2137622589}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111, y: -39.77893}
-  m_SizeDelta: {x: 150.9522, y: 143.3094}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &499875647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499875645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1339883297, guid: d8f3004655c39de429808826e657dc30, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &499875648
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499875645}
   m_CullTransparentMesh: 1
 --- !u!1 &620050125
 GameObject:
@@ -575,10 +500,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1523923427}
   lines:
-  - "En los pasadizos subterr\xE1neos, el nido de los mutantes."
-  - 'Los estudiantes encuentran la segunda parte de la formula para poder acabar
-    con la perra madre. '
-  TextSpeed: 0.01
+  - REFLEXION EN LA CIUDAD ABANDONADA
+  - "GUIA: \"La soledad puede ser abrumadora. Pero no est\xE1s solo, \xA1nunca lo
+    has estado!\""
+  - 'Protagonista: "A veces siento que nadie me entiende."'
+  - "GUIA: \"A veces, los m\xE1s valientes son quienes m\xE1s se sienten solos. Encuentra
+    fuerza en tu lucha.\""
+  TextSpeed: 0.1
   DelayBeforeSceneLoad: 2
   nivel: 0
 --- !u!1 &1276686762
@@ -639,7 +567,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3550a6cebf08ad94b98ea4912941d497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e5d57be83cd0ae44889b8670c566e4e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -778,7 +706,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ba264550a8f11c0478ab4f3c2ff29e83, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3de77d556bec6dc409662c58ca7e2eb7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1f0245f2e274de6479d7cabd2ae2faba, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1053,7 +981,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1149,9 +1077,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -61.906006, y: -39.77893}
-  m_SizeDelta: {x: 150.9522, y: 143.3094}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.9575, y: -50.4118}
+  m_SizeDelta: {x: 143.7421, y: 145.7128}
+  m_Pivot: {x: 0.620139, y: 0.5}
 --- !u!114 &1606263224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,7 +1100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -409016860, guid: d2864c8ab49d4a34dbbb67f2c122f51b, type: 3}
+  m_Sprite: {fileID: -1745209190, guid: 2b40f0801183d264e98433c5a2dc505c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1499,7 +1427,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1276686763}
-  - {fileID: 499875646}
   - {fileID: 1606263223}
   - {fileID: 457729221}
   - {fileID: 1993860378}
