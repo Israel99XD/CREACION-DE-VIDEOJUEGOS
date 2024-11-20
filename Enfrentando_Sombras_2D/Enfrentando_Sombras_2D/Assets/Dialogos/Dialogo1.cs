@@ -13,101 +13,90 @@ public class Dialogo1 : MonoBehaviour
     [SerializeField] public int nivel;
     private int index;
     private bool isDialogueInProgress;
-
+    private Coroutine currentDialogueCoroutine; // Corrutina actual del diálogo
 
     void Start()
     {
+        if (lines == null || lines.Length == 0)
+        {
+            Debug.LogError("El array de líneas está vacío o no está inicializado.");
+            return;
+        }
         dialogueText.text = string.Empty;
         StartDialogue();
     }
 
     public void StartDialogue()
     {
-        isDialogueInProgress = true;
-        index = 0;
-        StartCoroutine(ShowDialogue());
+        //isDialogueInProgress = true;
+        index = 0; // Reinicia el índice
+        StartNextDialogue(); // Inicia el primer diálogo
+    }
+    private void StartNextDialogue()
+    {
+        if (currentDialogueCoroutine != null)
+            StopCoroutine(currentDialogueCoroutine); // Detiene cualquier corrutina previa
+
+        dialogueText.text = string.Empty; // Limpia el texto anterior
+        isDialogueInProgress = true; // Marca que el diálogo está en progreso
+        currentDialogueCoroutine = StartCoroutine(ShowDialogue()); // Inicia la nueva línea
     }
 
     IEnumerator ShowDialogue()
     {
+        // Muestra el texto letra por letra
         foreach (char letter in lines[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(TextSpeed);
         }
 
-        isDialogueInProgress = false;
+        isDialogueInProgress = false; // Marca que la línea actual terminó
 
+        // Si es la última línea, espera y carga la escena
         if (index == lines.Length - 1)
         {
             yield return new WaitForSeconds(DelayBeforeSceneLoad);
-            string snivel = string.Empty;
-            if (nivel == 0)
-            {
-                snivel = "MenuInicial";
-            }
-            else
-            {
-                snivel = ControllerUser.Instance.personaje == 1 ? $"Nivel{nivel}" : $"Nivel{nivel}T";
-            }
-            Debug.Log(snivel);
-            SceneManager.LoadScene(snivel);
+            LoadNextScene();
         }
     }
 
     public void DisplayFullTextAutomatically()
     {
-        if (isDialogueInProgress && index < lines.Length)
+        if (isDialogueInProgress) // Si el texto se está escribiendo
         {
-            StopAllCoroutines(); // Detenemos la escritura automática del diálogo actual
-            dialogueText.text = lines[index]; // Mostramos la línea completa
-
-            // Avanzamos al siguiente diálogo si no es la última línea
-            if (index < lines.Length - 1)
-            {
-                StartCoroutine(ShowDialogueWithDelay()); // Mostramos el siguiente diálogo con un retraso
-            }
-            else // Si es la última línea, esperamos antes de cargar la siguiente escena
-            {
-                isDialogueInProgress = false;
-                StartCoroutine(WaitAndLoadScene());
-            }
+            StopCoroutine(currentDialogueCoroutine); // Detiene la animación de la línea
+            dialogueText.text = lines[index]; // Muestra toda la línea al instante
+            isDialogueInProgress = false;
         }
-        else if (!isDialogueInProgress && index < lines.Length - 1) // Si el diálogo no está en progreso, avanzamos a la siguiente línea
+        else if (index < lines.Length - 1) // Si no se está escribiendo, avanza a la siguiente línea
         {
             index++;
-            dialogueText.text = string.Empty;
-            StartCoroutine(ShowDialogue());
+            StartNextDialogue();
+        }
+        else if (index >= lines.Length - 1)// Si es la última línea, espera y carga la escena
+        {
+            StartCoroutine(WaitAndLoadScene());
         }
     }
 
-    IEnumerator ShowDialogueWithDelay()
+    public void OnButtonClick()
     {
-        yield return new WaitForSeconds(2f); // Cambia el valor a la cantidad de segundos que desees esperar
-        index++;
-        dialogueText.text = string.Empty;
-        StartCoroutine(ShowDialogue());
+        DisplayFullTextAutomatically(); // Método llamado al hacer clic en un botón
     }
 
     IEnumerator WaitAndLoadScene()
     {
         yield return new WaitForSeconds(DelayBeforeSceneLoad);
-
-        string snivel = string.Empty;
-        if (nivel == 0)
-        {
-            snivel = "MenuInicial";
-        }
-        else
-        {
-            snivel = ControllerUser.Instance.personaje == 1 ? $"Nivel{nivel}" : $"Nivel{nivel}T";
-        }
-        Debug.Log(snivel);
-        SceneManager.LoadScene(snivel);
+        LoadNextScene();
     }
-    // Puedes llamar a este método desde un botón u otro evento para avanzar manualmente en el diálogo
-    public void OnButtonClick()
+
+    private void LoadNextScene()
     {
-        DisplayFullTextAutomatically();
+        string snivel = nivel == 0 ? "MenuInicial" :
+                        ControllerUser.Instance.personaje == 1 ? $"Nivel{nivel}" : $"Nivel{nivel}T";
+
+        Debug.Log($"Cargando escena: {snivel}");
+        SceneManager.LoadScene(snivel); // Carga la escena correspondiente
     }
 }
