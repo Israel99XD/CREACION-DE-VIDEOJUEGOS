@@ -1,14 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{DA84D545-49B2-B444-55E7-237C3D335498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gentleland.SteampunkUI.DemoAndExample", "Gentleland.SteampunkUI.DemoAndExample.csproj", "{F3A28233-D789-DFF2-7797-33C71F50A708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gentleland.Utils.SteampunkUI", "Gentleland.Utils.SteampunkUI.csproj", "{28623864-B03E-5A1C-01C0-A6081245C786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{DA84D545-49B2-B444-55E7-237C3D335498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA84D545-49B2-B444-55E7-237C3D335498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA84D545-49B2-B444-55E7-237C3D335498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA84D545-49B2-B444-55E7-237C3D335498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A28233-D789-DFF2-7797-33C71F50A708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A28233-D789-DFF2-7797-33C71F50A708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A28233-D789-DFF2-7797-33C71F50A708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A28233-D789-DFF2-7797-33C71F50A708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28623864-B03E-5A1C-01C0-A6081245C786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28623864-B03E-5A1C-01C0-A6081245C786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28623864-B03E-5A1C-01C0-A6081245C786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28623864-B03E-5A1C-01C0-A6081245C786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
