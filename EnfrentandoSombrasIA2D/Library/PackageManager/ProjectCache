@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638678303368834741
     m_Hash: 3279221129
+=======
+      ticks: 638679860401265598
+    m_Hash: 947626093
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/israe/OneDrive/Escritorio/GIT MAIN/CREACION-DE-VIDEOJUEGOS/EnfrentandoSombrasIA2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638678303368844703
     m_Hash: 2485782864
+=======
+      ticks: 638679860401275593
+    m_Hash: 28772972
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
