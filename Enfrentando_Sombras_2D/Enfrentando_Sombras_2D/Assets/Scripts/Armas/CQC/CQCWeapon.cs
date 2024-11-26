@@ -28,7 +28,7 @@ public class CQCWeapon : Weapon
             if (h == null)
                 continue;
 
-            this.OnHit(h);
+            this.OnHit(h, this.gameObject);
         }
     }
     IEnumerator Animate()

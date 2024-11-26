@@ -20819,7 +20819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 287b556fe88e55c449544ccd557fcbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4598427601073456575, guid: 0fd636bb190cb9648a62474edfb0e24a, type: 3}
+  prefab: {fileID: 7346867796305498321, guid: 9fe711d85b5421843a9567e53ad3965a, type: 3}
   spawnPoints:
   - {fileID: 696075558}
   - {fileID: 555645378}

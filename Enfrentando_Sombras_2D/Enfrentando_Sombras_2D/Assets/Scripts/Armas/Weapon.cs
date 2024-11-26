@@ -37,8 +37,13 @@ public abstract class Weapon : MonoBehaviour
 
     }
 
-   public virtual void OnHit(Healt healt) 
-   {
+   public virtual void OnHit(Healt healt, GameObject instigator)
+    {
+        // Si tanto el instigator como el objeto afectado tienen el Tag "Enemigo", no aplica daño
+        if (instigator.CompareTag("Enemigo") && this.gameObject.CompareTag("Enemigo"))
+        {
+            return; // Sal del método sin aplicar daño
+        }
         healt.Damage(this.damage, this.transform.position);
    }
     public virtual void Throw()

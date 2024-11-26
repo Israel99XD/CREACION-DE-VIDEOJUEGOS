@@ -20,7 +20,7 @@ public class ExplosiveProjectile : Projectile
             if (h == null)
                 continue;
 
-            this.weapon.OnHit(h);
+            this.weapon.OnHit(h, this.gameObject);
         }
     }
 

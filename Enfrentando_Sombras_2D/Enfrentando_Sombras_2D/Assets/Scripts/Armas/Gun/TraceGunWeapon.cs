@@ -55,7 +55,7 @@ public class TraceGunWeapon : GunWeapon
             var health = hit.collider.GetComponent<Healt>();
             if (health != null)
             {
-                this.OnHit(health);
+                this.OnHit(health, this.gameObject);
             }
         }
 

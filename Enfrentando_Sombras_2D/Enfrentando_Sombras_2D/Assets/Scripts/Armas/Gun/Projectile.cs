@@ -23,6 +23,6 @@ public class Projectile : MonoBehaviour
         var health = other.gameObject.GetComponent<Healt>();
 
         if (health != null)
-            this.weapon.OnHit(health);
+            this.weapon.OnHit(health, this.gameObject);
     }
 }

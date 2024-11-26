@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 428039339945501363}
   m_Layer: 6
   m_Name: Hueso
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,23 +190,27 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.29960012, y: 0.92057455}
-      - {x: 0.04879427, y: 0.61940384}
-      - {x: -0.08713007, y: 0.14762402}
-      - {x: -0.48108554, y: 0.12873435}
-      - {x: -0.81874967, y: 0.41946387}
-      - {x: -0.8084395, y: 0.8903456}
+    - - {x: 0.12672913, y: 1.357301}
+      - {x: -0.18776596, y: 1.3199859}
+      - {x: -0.49656114, y: 1.2394403}
+      - {x: -0.7358427, y: 1.1750582}
+      - {x: -0.9097343, y: 1.0472581}
+      - {x: -0.9813104, y: 0.96313334}
       - {x: -1.0308316, y: 0.9224746}
-      - {x: -1.3971026, y: 0.42049384}
-      - {x: -0.8632267, y: -0.06182021}
+      - {x: -1.1984375, y: 0.69276774}
+      - {x: -1.246609, y: 0.2850496}
+      - {x: -1.1341151, y: -0.5433997}
       - {x: -0.9683814, y: -1.1896131}
       - {x: -0.6170618, y: -1.2384075}
       - {x: 0.4278803, y: -1.2643199}
       - {x: 0.9683815, y: -1.1896129}
-      - {x: 0.69217014, y: -0.46956325}
-      - {x: 0.9477935, y: -0.5236872}
-      - {x: 1.1358805, y: -0.078030586}
-      - {x: 0.9646869, y: 0.8405003}
+      - {x: 1.0558645, y: -0.92822886}
+      - {x: 1.0834535, y: -0.8457973}
+      - {x: 1.1434351, y: -0.6741808}
+      - {x: 1.3091922, y: -0.2732212}
+      - {x: 0.9703375, y: 0.4938451}
+      - {x: 1.2928414, y: 0.8779814}
+      - {x: 1.1011639, y: 1.2772268}
   m_UseDelaunayMesh: 0
 --- !u!50 &3219267165335787287
 Rigidbody2D:
@@ -268,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57906d8385e68674fb8ef6d6ee6b86cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 18
+  maxHealth: 8
   isPlayer: 0
   puntaje: 200
 --- !u!114 &2288380332041679940
@@ -421,6 +425,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1463306387157960836}
     m_Modifications:
+    - target: {fileID: -1566353091994798235, guid: 239768b11871ba247aba62542ae52c81, type: 3}
+      propertyPath: damage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 183827371755357346, guid: 239768b11871ba247aba62542ae52c81, type: 3}
       propertyPath: m_Layer
       value: 6
