@@ -51,8 +51,15 @@
 </a>
 
 ### PROTOTIPO 3 PARTE 3
-![Prototipo 3 Parte 3](https://github.com/user-attachments/assets/c841b51b-46ef-4109-8ea3-367d00dbc0ea)
+![Prototipo 3 Parte 3](https://github.com/user-attachments/assets/a3308b00-a98f-4247-a1a1-83a908dc6232)
+
 [Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_5.unitypackage)
+
+<a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/evidencia%20prototipo%203%20parte%203.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+    VER PDF CON EVIDENCIA DE AUTORÍA
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+</a>
 
 ### PROTOTIPO 3 PARTE 4
 <!-- Aquí deberías agregar la imagen y el enlace de código para la parte 4 del prototipo -->
