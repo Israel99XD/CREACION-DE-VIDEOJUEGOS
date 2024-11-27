@@ -34,7 +34,12 @@
 
 [Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_3.unitypackage)
 
-<img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" /> [VER PDF CON EVIDENCIA DE AUTORIA](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/Evidencia%20Prototipo%203%20Parte%201.pdf) <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+<a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/Evidencia%20Prototipo%203%20Parte%201.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+    VER PDF CON EVIDENCIA DE AUTORÍA
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+</a>
+
 
 
 ### PROTOTIPO 4
