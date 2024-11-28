@@ -85,6 +85,21 @@
 </a>
 
 ### PROTOTIPO 3 PARTE 6
-<!-- Aquí deberías agregar la imagen y el enlace de código para la parte 5 del prototipo -->
+![Prototipo 3 Parte 5](https://github.com/user-attachments/assets/1314dad0-ced9-44e3-ba9a-22ba9913c9f7)
+
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/prototipo-3-parte-6.unitypackage)
+
+<a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/evidencia%20prototipo%203%20parte%206.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+    VER PDF CON EVIDENCIA DE AUTORÍA
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+</a>
+</br>
+<a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/EVIDENCIA%20DE%20AUTORIDAD%20COMPLETA.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+    VER PDF CON EVIDENCIA DE AUTORÍA COMPLETA
+    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
+</a>
+
 
 </div>
