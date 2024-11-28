@@ -32,7 +32,7 @@
 
 ### PROTOTIPO 3 PARTE 1
 ![Prototipo 3 Parte 1](https://github.com/user-attachments/assets/538024ef-c248-45f0-8b8e-15fca7f4f871)
-[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_3.unitypackage)
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo-3-Parte-1.unitypackage)
 
 <a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/Evidencia%20Prototipo%203%20Parte%201.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
@@ -42,7 +42,7 @@
 
 ### PROTOTIPO 3 PARTE 2
 ![Prototipo 3 Parte 2](https://github.com/user-attachments/assets/67fcbdec-18fb-4ec9-b6b1-a6c22b605199)
-[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_4.unitypackage)
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo-3-Parte-2.unitypackage)
 
 <a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/Evidencia%20prototipo%203%20parte%202.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
@@ -53,7 +53,7 @@
 ### PROTOTIPO 3 PARTE 3
 ![Prototipo 3 Parte 3](https://github.com/user-attachments/assets/a3308b00-a98f-4247-a1a1-83a908dc6232)
 
-[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_5.unitypackage)
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/prototipo-3-parte-3.unitypackage)
 
 <a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/evidencia%20prototipo%203%20parte%203.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
@@ -64,7 +64,7 @@
 ### PROTOTIPO 3 PARTE 4
 ![Prototipo 3 Parte 4](https://github.com/user-attachments/assets/579e0aa4-e9bf-4359-b09f-7e88eeeedd51)
 
-[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_5.unitypackage)
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/prototipo-3-parte-4.unitypackage)
 
 <a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/evidencia%20prototipo%203%20parte%204.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
@@ -76,7 +76,7 @@
 ![Prototipo 3 Parte 5](https://github.com/user-attachments/assets/58e77ef9-011d-4e82-991a-19a0d4c4e531)
 
 
-[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/Prototipo_5.unitypackage)
+[Ir al código](https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/prototipo-3-parte-5.unitypackage)
 
 <a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/evidencia%20prototipo%203%20parte%205.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
