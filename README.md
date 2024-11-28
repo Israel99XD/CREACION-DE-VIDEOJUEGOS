@@ -95,11 +95,7 @@
     <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
 </a>
 </br>
-<a href="https://github.com/Israel99XD/CREACION-DE-VIDEOJUEGOS/blob/main/PDF%C2%B4S/EVIDENCIA%20DE%20AUTORIDAD%20COMPLETA.pdf" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
-    VER PDF CON EVIDENCIA DE AUTORÍA COMPLETA
-    <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" width="30" height="30" />
-</a>
+[EVIDENCIA DE AUTORIDAD COMPLETA.pdf](https://github.com/user-attachments/files/17952153/EVIDENCIA.DE.AUTORIDAD.COMPLETA.pdf)
 
 
 </div>
