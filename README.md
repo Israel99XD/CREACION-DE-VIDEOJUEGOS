@@ -97,5 +97,36 @@
 </br>
 [EVIDENCIA DE AUTORIDAD COMPLETA.pdf](https://github.com/user-attachments/files/17952153/EVIDENCIA.DE.AUTORIDAD.COMPLETA.pdf)
 
+### CHALLENGE 2
+![image](https://github.com/user-attachments/assets/ed5dd5c9-b663-4333-bd14-38818792be09)
+![image](https://github.com/user-attachments/assets/ca4b7a44-7d73-440b-bf02-5fbd9f3ee86c)
+![image](https://github.com/user-attachments/assets/86dfbe29-079a-4e2d-9545-316ba41f7a43)
+![image](https://github.com/user-attachments/assets/d3cddb6c-4656-4032-948b-fbcb8f86567e)
+
+### CHALLENGE 3
+![image](https://github.com/user-attachments/assets/032f2d59-073d-4874-8262-24a20a60cb4a)
+![image](https://github.com/user-attachments/assets/67b2feb1-68be-4c7f-b50f-dc8fcd7c0c85)
+![image](https://github.com/user-attachments/assets/f847def7-c0fa-4e83-b14a-9ab40e5a7988)
+
+### CHALLENGE 4
+![image](https://github.com/user-attachments/assets/794e306b-9344-410a-9f4e-e7655bc8057b)
+![image](https://github.com/user-attachments/assets/6b24c70b-57d7-4369-b8d3-0c15201c1322)
+![image](https://github.com/user-attachments/assets/fb807bce-c9fc-4144-8cb9-2811320b048e)
+![image](https://github.com/user-attachments/assets/5e1556d3-24e8-475c-b6a9-73963011960e)
+![image](https://github.com/user-attachments/assets/9327a222-0d3c-44df-9992-541d0bb192cb)
+![image](https://github.com/user-attachments/assets/709b9322-4043-4635-baff-424cbc99227e)
+![image](https://github.com/user-attachments/assets/391407b5-b8ca-432f-97b8-7eb1ecb75ee9)
+
+### CHALLENGE 4
+![image](https://github.com/user-attachments/assets/7da2233e-7ea0-4bd6-8e8b-710eea056308)
+![image](https://github.com/user-attachments/assets/d84ab36a-d741-4d89-bcc3-6a38f1025df3)
+![image](https://github.com/user-attachments/assets/2d4c0c9c-4bc7-4326-a9bf-072d08a79274)
+![image](https://github.com/user-attachments/assets/1501086c-be28-4c08-98dc-c2e7e253a04d)
+
+
+
+
+
+
 
 </div>
